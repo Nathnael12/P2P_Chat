@@ -5,7 +5,7 @@
 ><cite>Definition according to [Computer World](https://www.computerworld.com/article/2588287/networking-peer-to-peer-network.html)</cite>
 
 ## P2P Chat
-In this project I tried to implement peer to peer connection to create a simple Chat app. We will have a Discovery server and peer clients in this project.
+In this project I tried to implement peer to peer connection to create a simple Chat app. You will have a Discovery server and peer clients in this project.
 Each peer will have to connect with the discovery server first. Then the discovery server will register the address of each connected peers.
 <br/>
 In this Solution, you will find three projects 
