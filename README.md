@@ -13,16 +13,21 @@ In this Solution, you will find three projects
 - P2P Client, and
 - Infrastructure
 <br/>
-***
-The P2P Discovery Server should run first before any P2P Client is started. To do so, you can run the P2P Discovery Server project only by writing this command in CLI <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet run --project P2PDiscoveryServer `
-<br/>
-Now you are ready to run the peer clients. You can do this by running the following command.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet run --project P2PClient `
-<br/>
-You should have at least two P2PClient instances running to have a chat
-***
+
+The P2P Discovery Server should run first before any P2P Client is started. To do so, you can run the P2P Discovery Server project only by writing this command in CLI 
+```bash
+ dotnet run --project P2PDiscoveryServer
+```
+Now you are ready to run the peer clients. You can do this by running the following command.
+```bash
+dotnet run --project P2PClient
+```
+*Remember:* You should have at least two P2PClient instances running to have a chat.<br/>
 Once the discovery server is started and the clients are started, You will see available commands in the clients side.
 ### How is it working?
 Simply put, the discovery server has only one job. To listen to comming connections from any peer client. However, peers act as both a server and a client.
 The server of one peer will be listening to connections from another peer (acting as a server). Also, a peer will connect to another peer's server (acting as a client).
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
