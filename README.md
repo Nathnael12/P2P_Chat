@@ -25,7 +25,7 @@ dotnet run --project P2PClient
 *Remember:* You should have at least two P2PClient instances running to have a chat.<br/>
 Once the discovery server is started and the clients are started, You will see available commands in the clients side.
 ### How does it work?
-Simply put, the discovery server has only one job. To listen to comming connections from any peer client. However, peers act as both a server and a client.
+Simply put, the discovery server has only one job. To listen to coming connections from any peer client. However, peers act as both a server and a client.
 The server of one peer will be listening to connections from another peer (acting as a server). Also, a peer will connect to another peer's server (acting as a client).
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
